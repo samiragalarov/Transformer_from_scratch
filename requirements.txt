@@ -1,0 +1,8 @@
+Faker
+pandas
+babel
+torch
+pandas
+numpy
+flask
+flask_cors
