@@ -25,4 +25,4 @@ def get_data():
     return jsonify(str(data[0][:10]))
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
