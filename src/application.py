@@ -10,7 +10,7 @@ from src.logger import logging
 application = Flask(__name__)
 app = application
 CORS(app)  # Enable CORS for all routes
-# thisdd
+
 @app.route('/')
 def index():
     return render_template('index.html')
