@@ -7,7 +7,8 @@ from src.exception import CustomException
 from src.logger import logging
 
 
-app = Flask(__name__)
+application = Flask(__name__)
+app = application
 CORS(app)  # Enable CORS for all routes
 
 @app.route('/')
