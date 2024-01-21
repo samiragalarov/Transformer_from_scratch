@@ -1,8 +1,8 @@
 Faker
 pandas
-babel
+babel==2.14.0
 torch
 pandas
 numpy
-flask
-flask_cors
+flask==3.0.0
+flask_cors==4.0.0
