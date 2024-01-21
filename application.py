@@ -11,8 +11,8 @@ application = Flask(__name__)
 app = application
 CORS(app)  # Enable CORS for all routes
 
+application
 
-@app.route('/')
 def index():
     return render_template('index.html')
 
