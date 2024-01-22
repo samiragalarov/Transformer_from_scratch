@@ -25,7 +25,7 @@
 # flask_cors
 
 # requirements.txt
---extra-index-url https://download.pytorch.org/whl/cu116
+--extra-index-url https://download.pytorch.org/whl/cpu
 torch
 Faker==2.2.0
 pandas
