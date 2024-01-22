@@ -25,8 +25,8 @@
 # flask_cors
 
 # requirements.txt
---index-url https://download.pytorch.org/whl/cpu
-torch==1.10.2+cpu
+--find-links https://download.pytorch.org/whl/cpu
+torch
 Faker==2.2.0
 pandas
 babel==2.14.0
