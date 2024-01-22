@@ -26,7 +26,7 @@
 
 # requirements.txt
 --index-url https://download.pytorch.org/whl/cpu
-torch
+torch==1.10.2+cpu
 Faker==2.2.0
 pandas
 babel==2.14.0
