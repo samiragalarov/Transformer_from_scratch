@@ -1,7 +1,7 @@
 # Faker==22.2.0
 pandas
 # babel==2.14.0
-torch
+# torch
 numpy
 flask
 flask_cors
