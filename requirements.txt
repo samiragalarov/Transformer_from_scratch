@@ -15,11 +15,20 @@
 # # flask==3.0.0
 # # flask_cors==4.0.0
 
--f https://download.pytorch.org/whl/cpu
-# Faker==22.2.0
+# -f https://download.pytorch.org/whl/cpu
+# # Faker==22.2.0
+# pandas
+# # babel==2.14.0
+# torch==2.1.2+cpu
+# numpy
+# flask
+# flask_cors
+
+# requirements.txt
+-F https://download.pytorch.org/whl/cpu/torch-1.10.2%2Bcpu-cp38-cp38-linux_x86_64.whl
+Faker==2.2.0
 pandas
-# babel==2.14.0
-torch==2.1.2+cpu
+babel==2.14.0
 numpy
 flask
 flask_cors
