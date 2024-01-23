@@ -33,3 +33,6 @@ babel==2.14.0
 numpy
 flask
 flask_cors
+torch==1.13.1
+torchvision==0.14.1
+gunicorn==20.1.0
