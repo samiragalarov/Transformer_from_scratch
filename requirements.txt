@@ -1,4 +1,5 @@
-torch
+https://download.pytorch.org/whl/torch_stable.html
+torch>=2.0.1+cpu
 Faker==2.2.0
 pandas
 babel==2.14.0
