@@ -1,5 +1,4 @@
-@ https://download.pytorch.org/whl/cpu
-
+--index-url https://download.pytorch.org/whl/cpu
 Faker==2.2.0
 pandas
 babel==2.14.0
