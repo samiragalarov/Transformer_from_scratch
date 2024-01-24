@@ -1,3 +1,4 @@
 pandas
 flask
 flask_cors
+torch --index-url https://download.pytorch.org/whl/cpu

@@ -8,14 +8,6 @@ HYPEN_E_DOT='-e .'
 def get_requirements(file_path:str)->List[str]:
 
 
-    index_url = "https://download.pytorch.org/whl/cpu"
-    package = "torch"
-
-    command = f"pip3 install {package} --index-url {index_url}"
-    subprocess.run(command, shell=True)
-    '''
-    this function will return the list of requirements
-    '''
     requirements=[]
     with open(file_path) as file_obj:
         requirements=file_obj.readlines()
