@@ -5,7 +5,13 @@ import os
 import sys
 from src.exception import CustomException
 from src.logger import logging
+import subprocess
 
+index_url = "https://download.pytorch.org/whl/cpu"
+package = "torch"
+
+command = f"pip3 install {package} --index-url {index_url}"
+subprocess.run(command, shell=True)
 
 application = Flask(__name__)
 app = application
