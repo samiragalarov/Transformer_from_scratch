@@ -1,7 +1,7 @@
 
-Faker==2.2.0
+
 pandas
-babel==2.14.0
+
 
 flask
 flask_cors
