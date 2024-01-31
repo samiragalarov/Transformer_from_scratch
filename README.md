@@ -1,3 +1,5 @@
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*BHzGVskWGS_3jEcYYi6miQ.png" width="400" alt="Alt Text">
+
 # Transformer_pytorch NLP Project
 
 This project implements a Transformer model for natural language processing (NLP) tasks using PyTorch. The Transformer is trained on a custom date translation dataset.
